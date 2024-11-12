@@ -1,6 +1,7 @@
 import React from "react";
+import { useEffect,useState } from "react";
 
-export const Index = () => {
+const Index = () => {
     return (
         <div className="container mx-auto p-10 flex justify-items-center flex-col">
             <h1 className="text-4xl font-bold text-center">Welcome to EduPlatform</h1>
@@ -9,3 +10,4 @@ export const Index = () => {
         </div>
     );
 }
+export default Index;
